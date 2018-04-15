@@ -8,7 +8,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+Generate java -jar start script by including every jar in the current directory and subdirecotories
+*/
 public class GenerateStart {
 
 	public static void main(String[] args) throws IOException {
